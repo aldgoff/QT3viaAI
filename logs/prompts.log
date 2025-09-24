@@ -1,11 +1,58 @@
-# Prompts Log
-This file contains all user prompts provided to ChatGPT during development.
+# Prompts Log (2025-09-24)
 
-[2025-09-24 08:15] Quantum tic-tac-toe. The best way to learn a new programming language ...
-[2025-09-24 08:20] Very close, but a number of caveats. The iterative changes should be small ...
-[2025-09-24 08:27] Begin
-[2025-09-24 08:31] Yes.
-[2025-09-24 08:34] I'm confused. You stated that you have committed the skeleton files ...
-[2025-09-24 08:40] Yes.
-[2025-09-24 08:50] Almost, just a couple of more points of confusion. In your Repository Skeleton ...
-[2025-09-24 08:55] That worked. Three files committed, two deep in the directory structure ...
+## [DATE UNKNOWN] USER
+Quantum tic-tac-toe. The best way to learn a new programming language is to write a game. It requires mastery of the toolchain and typically requires some of the more obscure aspects of the language. In this case, the language is AI, the toolchain includes the ChatGPT prompt, Github, html, markdown notation, graphical elements, a suitable web programming language (Python perhaps), etc. Our development will follow two meta principles of programming, the spec as code, and red-green-refactor via regression tests. These elements will experience multiple iterations as the spec, code, and regression tests are refined. The spec should be in markdown notation suitable for storage in a Github repo. From this evolving spec the executable code and regression tests shall be derived (your job) which will occur iteratively until a complete and playable game is finished, one suitable to demonstrate some basic quantum principles (superposition, collapse, an objective measurement mechanism, etc.). Keep a log of all prompts (just the prompts, not your responses) which I will ask for from time to time as a single downloadable file. Before we begin, confirm your understanding of the vision and the deliverables.
+
+## [DATE UNKNOWN] USER
+Very close, but a number of caveats. The iterative changes should be small so that a scan of the commits in the Git repo are easy to follow. When we need to refactor (large changes) that will be the only change for those commits which will include an appropriate commit message. The initial UI can be minimal, but we will want to explore various animations of the cyclic entanglements. This is best down with object oriented code, where various animations can be dropped in, plug and play like. Uninstantiated animation code can stay in the code base as reference, future use, or variations of the game to highlight different quantum features. Finally, the original paper (AJP 2006) had the player which did not create the cyclic entanglement choose the collapse. There were thus two types of moves; placement moves (a portent of unitary evolution) and collapse moves (a portent of collapse by measurement). This balanced the game strategically. But let add a toggle to the UI that
+
+## [DATE UNKNOWN] USER
+Begin
+
+## [DATE UNKNOWN] USER
+Yes
+
+## [DATE UNKNOWN] USER
+I'm confused. You stated that you have committed the skeleton files to a repo. I thought that I was going to have to copy each file and commit them to a repo I just setup in my own GitHub account. Then pull to my mac via command line interface, then point a browser at index.html to run. If you have already committed to a github repo, how do I access, test and run the code?
+
+## [DATE UNKNOWN] USER
+Yes
+
+## [DATE UNKNOWN] USER
+Almost, just a couple of more points of confusion. In your Repository Skeleton you have styles.css listed in src/ui/static/ but your file above is style.css. Pick one. Also, I see no obvious location in the directory structure for the script.js file. Where does it belong? If the skeleton is good, I can create all the folders and subfolders as part of this commit.
+
+## [DATE UNKNOWN] USER
+That worked. Three files commited, two deep in the directory structure. Pulled from GitHub to my Mac and opened the index.html file, which brought the page up in Chrome. Looks like it showed as you described it would. Cut and paste is easy in the GitHub web interface, but had to commit each file change individually instead of as a group. So three tasks: 1) Is there a way to change files in the repo via the GitHub web interface, and then do a single commit? 2) Go ahead and create empty placeholder files per your suggestion. 3) Prepare the prompts.log file.
+
+## [DATE UNKNOWN] USER
+GitHub dev worked. However, upon pulling the repo down to my Mac, the tree command did not list any of the placeholder directories that held the .gitkeep files. The unix commands ls -aR did not show them either. Also, the prompts.log file has lines too long to read and the times in the date-timestamp column seem wrong, there was more time between queries. Recommendations?
+
+## [DATE UNKNOWN] USER
+The problem was how I created the .gitkeep files inside non existent directories. Fixed in the github repo, pulled and checked - now tree works just fine. As for the log of prompts the problem is on your end, each line ends with an ellipses. Using unix command ll reveals that most of each prompt is not included at all. Please create a new prompt log that is readable (it could be in markdown) with accurate time stamps, that includes each prompt in its entirety.
+
+## [DATE UNKNOWN] USER
+Keep both, *.log and *.md, but they should each be a single file.
+
+## [DATE UNKNOWN] USER
+Today's conversation only. However, the logs will get long if the responses are included, but they do make a more complete record. Might be useful in a classroom setting teaching students how to use AI effectively. Is there a format that is collapsible? Just each prompt, but can drill down to the response. If not, make two markdown logs; one "conversation.md" which includes both prompt and response, the other "prompts.md" which includes just the prompts. Include accurate timestamps in both.
+
+## [DATE UNKNOWN] USER
+Yes
+
+## [DATE UNKNOWN] USER
+Yes
+
+## [DATE UNKNOWN] USER
+Output the complete file (don't forget to include the complete text, no ellipses).
+
+## [DATE UNKNOWN] USER
+Better, but there is a glitch. The propose skeleton in tree format appears in conflict with markdown notation. It broke the log into two files, with a badly formatted directory structure (skeleton) in between them and then a final Continue generating button at the end. Also the timestamps still seem squirrely, I remember long times between prompts. Double check?
+
+## [DATE UNKNOWN] USER
+Make it so.
+
+## [DATE UNKNOWN] USER
+Still glitchy. The **repository skeleton** still splits your output into two files. The first one says markdown in the upper left corner with text in red and black, the second one says yaml in the upper left corner with text in green, brown, blue, and gray. The last few prompts are not accessible as a file at all. I don't want inaccurate timestamps. If you are just guessing because you don't have the data, then cut it out - just use the dates. "I don't know" or "the data is missing" are acceptable answers, making things up (technical term is hallucinating) is unacceptable. Try again.
+
+## [DATE UNKNOWN] USER
+Understood. The log is still split into two files (markdown and yaml) by the repository skeleton. See if you can produce just the prompts.md file, prompts only, no responses.
